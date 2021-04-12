@@ -12,5 +12,6 @@ jobs:
                         - name: python test
                           run: |
                                 pwd
+                                cat requirements.txt
                                 python test.py
 
