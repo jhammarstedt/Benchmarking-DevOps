@@ -1,1 +1,1 @@
-print("hello from the image!")
+print("Hello you're running the action on a commit!")
