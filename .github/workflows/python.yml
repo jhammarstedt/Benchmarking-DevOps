@@ -1,0 +1,14 @@
+name: Python benchmarking using pytest
+on:
+        push:
+                branches:
+                        - master
+jobs:
+        benchmark:
+                name: pytest-benchmarking
+                runs-on: ubuntu-latest
+                steps:
+                        - uses: actions/checkout@v2
+                        - name: python test
+                          run: python test.py
+
