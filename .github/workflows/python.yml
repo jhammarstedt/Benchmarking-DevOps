@@ -10,5 +10,7 @@ jobs:
                 steps:
                         - uses: actions/checkout@v2
                         - name: python test
-                          run: python test.py
+                          run: |
+                                python -m pip install requirements.txt
+                                python test.py
 
