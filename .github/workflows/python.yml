@@ -18,7 +18,7 @@ jobs:
                                 python test.py
                                 pytest benchmarking.py --benchmark-json output.json
                         - name: Store bm output
-                          uses: jhammarstedt/Benchmarking-DevOps@v1
+                          uses: jhammarstedt/Benchmarking-DevOps@v2
                           with: 
                                 name: Py BM with pytest
                                 tool: 'pytest'
@@ -27,5 +27,5 @@ jobs:
                                 github-token: ${{secrets.PERSONAL_GITHUB_TOKEN}}
                                 #auto-push: true
                                 
-                          
+                           
 
