@@ -8,11 +8,24 @@ jobs:
                 name: pytest-benchmarking
                 runs-on: ubuntu-latest
                 steps:
-                        - uses: actions/checkout@v2
-                        - name: python test
+                        - uses: actions/checkout@v2 
+                        - uses: actions/setup-python@v1
+                        - name: Installing and running pytest
                           run: |
                                 pwd
                                 python -m pip install --upgrade pip
                                 if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
                                 python test.py
+                                pytest benchmarking.py --benchmark-json output.json
+                        #- name: Store bm output
+                        #  uses: actions/checkout@v2 #jhammarstedt/Benchmarking-DevOps@v1
+                        #  with: 
+                        #        name: Py BM with pytest
+                        #        tool: 'pytest'
+                        #        output-file-path: output.json
+                                
+                        #        github-token: ${{secrets.PERSONAL_GITHUB_TOKEN}}
+                                #auto-push: true
+                                
+                           
 
