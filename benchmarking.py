@@ -6,4 +6,4 @@ def test_loop(n=200):
         x.sort()
 
 def test_case(benchmark):
-    benchmark(test_loop,args)
+    benchmark(test_loop)
