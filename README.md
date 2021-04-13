@@ -8,4 +8,4 @@ We want to create a katacoda tutorial on how to do continuous benchmarking using
 
 ### If time
 * Add visualization using github pages.
-* Add support for more language
+* Add support for more languages
