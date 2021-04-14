@@ -2,7 +2,7 @@ name: Python benchmarking using pytest
 on:
         pull_request:
                 branches:
-                        - master
+                        [master,johans_test]
 jobs:
         benchmark:
                 name: pytest-benchmarking
