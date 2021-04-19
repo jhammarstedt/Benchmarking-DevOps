@@ -1,6 +1,7 @@
 {
     "machine_info": {
         "node": "fv-az152-692",
+
         "processor": "x86_64",
         "machine": "x86_64",
         "python_compiler": "GCC 9.3.0",
@@ -23,9 +24,10 @@
         "id": "2f17d616d5f2c33eafd633a0689cb702c937d8ca",
         "time": "2021-04-19T18:25:16+02:00",
         "author_time": "2021-04-19T18:25:16+02:00",
+
         "dirty": true,
         "project": "Benchmarking-DevOps",
-        "branch": "johans"
+        "branch": "master"
     },
     "benchmarks": [
         {
@@ -7463,6 +7465,8 @@
             }
         }
     ],
+
     "datetime": "2021-04-19T16:25:46.294860",
+
     "version": "3.2.2"
 }
