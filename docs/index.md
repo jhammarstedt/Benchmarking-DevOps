@@ -1,4 +1,4 @@
-# This is the latest statistics from 2021-04-19T18:25:16+02:00
+# This is the latest statistics from 2021-04-19T18:29:08+02:00
 | Commit    | Mean  | Stddev|
 |----       |----   |----   |
-| 2f17d616d5f2c33eafd633a0689cb702c937d8ca  |0.00013248798499385472 |9.094115876011566e-05  |
+| a8cdd2d3104c65882a982a6378f50ab867f58f91  |0.0001303395634398874 |1.2053753430729276e-06  |
