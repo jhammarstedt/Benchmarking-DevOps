@@ -21,4 +21,6 @@ output = markdown.markdown(f'''
 ''')
 print(output)
 with open('docs/index.md','w') as f:
-    json.dump(output,f)
+    f.write(output)
+    f.close
+
