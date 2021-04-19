@@ -20,13 +20,13 @@ jobs:
                                 python -m pip install --upgrade pip
                                 if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
                                 python test.py
-                                pytest benchmarking.py --benchmark-json output.txt
+                                pytest benchmarking.py --benchmark-json output.json
                         - name: Commit files
                           run: |
                                git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
                                git config --local user.name "github-actions[bot]"
-                               git add output.txt
-                               git commit -m "Add changes" -a
+                               git add output.json
+                               git commit -m "Add new data" -a
                         - name: Push changes
                           uses: ad-m/github-push-action@master
                           with:
