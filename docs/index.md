@@ -1,4 +1,4 @@
-<h1>This is the latest statistics from 2021-04-19T18:25:51+02:00</h1>
-<p>| Commit    | Mean  | Stddev|
+# This is the latest statistics from 2021-04-19T18:29:08+02:00
+| Commit    | Mean  | Stddev|
 |----       |----   |----   |
-| 52a832ade7ede6c1002ea4daba906389011a9316  |0.00012246239729503936 |3.4054111078588665e-05  |</p>
+| a8cdd2d3104c65882a982a6378f50ab867f58f91  |0.0001303395634398874 |1.2053753430729276e-06  |
