@@ -12,13 +12,7 @@ mini = data["benchmarks"][0]["stats"]["mean"]
 maxi = data["benchmarks"][0]["stats"]["max"]
 std = data["benchmarks"][0]["stats"]["stddev"]
 #print(data["benchmarks"]['stats'])
-output = markdown.markdown(f'''
-# This is the latest statistics from {date}
-| Commit    | Mean  | Stddev|
-|----       |----   |----   |
-| {commit}  |{mean} |{std}  |
-
-''')
+output= f"# This is the latest statistics from {date}\n| Commit    | Mean  | Stddev|\n|----       |----   |----   |\n| {commit}  |{mean} |{std}  |"
 print(output)
 with open('docs/index.md','w') as f:
     f.write(output)
