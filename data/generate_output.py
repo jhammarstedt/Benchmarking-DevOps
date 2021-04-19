@@ -23,3 +23,4 @@ print(output)
 with open('docs/index.md','w') as f:
     f.write(output)
     f.close
+
