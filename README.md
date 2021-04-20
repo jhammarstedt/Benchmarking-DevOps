@@ -1,5 +1,5 @@
 # Continuous benchmarking using Github Actions
-## Authors ##
+## Authors ## 
 * Johan Hammarstedt (johhamm@kth.se), Github: [jhammarstedt](https://github.com/jhammarstedt)
 * Carl Leijonberg (carllei@kth.se), Github : [carllei](https://github.com/carllei)
 
