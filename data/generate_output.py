@@ -24,7 +24,7 @@ new_data = f"""<tr>
             </tr>"""
 
 
-html = open('.\docs\index.html')
+html = open('docs/index.html')
 soup = BeautifulSoup(html,'html.parser')
 soup.tbody.tr.append(BeautifulSoup( new_data,'html.parser'))
 html.close()
