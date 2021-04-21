@@ -23,4 +23,4 @@ def run_test(benchmark):
     benchmark(test_case2)
 
 if __name__ =="__main__":
-    run_test()
+    run_test(benchmark)
