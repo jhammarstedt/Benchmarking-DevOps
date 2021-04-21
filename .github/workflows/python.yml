@@ -19,9 +19,9 @@ jobs:
                                 pwd
                                 python -m pip install --upgrade pip
                                 if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-                                python test.py
-                                pytest benchmarking.py --benchmark-json output.json
-                                python data/generate_output.py
+                                python src/test.py
+                                pytest src/benchmarking.py --benchmark-json output.json
+                                python src/generate_output.py
 
                         - name: Commit files
                           run: |
