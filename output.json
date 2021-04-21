@@ -1,0 +1,76 @@
+{
+    "machine_info": {
+        "node": "fv-az99-885",
+        "processor": "x86_64",
+        "machine": "x86_64",
+        "python_compiler": "GCC 9.3.0",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.9.4",
+        "python_version": "3.9.4",
+        "python_build": [
+            "default",
+            "Apr  4 2021 21:04:22"
+        ],
+        "release": "5.4.0-1043-azure",
+        "system": "Linux",
+        "cpu": {
+            "vendor_id": "unknown",
+            "hardware": "unknown",
+            "brand": "unknown"
+        }
+    },
+    "commit_info": {
+        "id": "5273f2336cc5f99fc601db37627729192d11efde",
+        "time": "2021-04-21T11:43:56+02:00",
+        "author_time": "2021-04-21T11:43:56+02:00",
+        "dirty": false,
+        "project": "Benchmarking-DevOps",
+        "branch": "master"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_case",
+            "fullname": "src/benchmarking.py::test_case",
+            "params": null,
+            "param": null,
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.3932381479999947,
+                "max": 0.42293221900001754,
+                "mean": 0.4079884130000039,
+                "stddev": 0.013471393516611174,
+                "rounds": 5,
+                "median": 0.40804403300001013,
+                "iqr": 0.02532927050000211,
+                "q1": 0.3952545349999994,
+                "q3": 0.4205838055000015,
+                "iqr_outliers": 0,
+                "stddev_outliers": 2,
+                "outliers": "2;0",
+                "ld15iqr": 0.3932381479999947,
+                "hd15iqr": 0.42293221900001754,
+                "ops": 2.4510500007753664,
+                "total": 2.0399420650000195,
+                "data": [
+                    0.3932381479999947,
+                    0.40804403300001013,
+                    0.4198010009999962,
+                    0.395926664000001,
+                    0.42293221900001754
+                ],
+                "iterations": 1
+            }
+        }
+    ],
+    "datetime": "2021-04-21T09:44:21.950123",
+    "version": "3.2.2"
+}
