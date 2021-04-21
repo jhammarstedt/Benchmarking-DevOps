@@ -19,5 +19,5 @@ def test_case2(n=1000000):
     s = "".join(x)
     
 def test_case(benchmark):
-    benchmark(test_case2)
+    benchmark(test_case1)
 
