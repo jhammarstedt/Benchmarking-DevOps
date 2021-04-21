@@ -18,6 +18,6 @@ def test_case2(n=1000000):
     x = [str(i) for i in range(n,0,-1)]
     s = "".join(x)
     
-
-def run_test(benchmark):
+def test_case(benchmark):
     benchmark(test_case2)
+
