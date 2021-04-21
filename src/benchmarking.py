@@ -21,6 +21,3 @@ def test_case2(n=1000000):
 
 def run_test(benchmark):
     benchmark(test_case2)
-
-if __name__ =="__main__":
-    run_test(benchmark)
