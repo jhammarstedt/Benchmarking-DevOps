@@ -12,5 +12,5 @@ cat <<EOM> README.md
 # ghActions tutorial in katacoda
 This is a katacoda tutorial template to test github actions.
 Created by [jhammarstedt](https://github.com/jhammarstedt) and [carllei](https://github.com/carllei)
-
+EOM
 echo "Necessary files are removed"
