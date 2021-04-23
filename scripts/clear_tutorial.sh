@@ -8,8 +8,12 @@ rm -rf .github src
 rm output.json 
 rm README.md
 
+# cleaning the index file from previous runs
+./scripts/clear_table.sh
+
+# Creating a new clean readme
 cat <<EOM> README.md
-# ghActions tutorial in katacoda
+# Continious Benchmarking with Github Actions
 This is a katacoda tutorial template to test github actions.
 Created by [jhammarstedt](https://github.com/jhammarstedt) and [carllei](https://github.com/carllei)
 EOM
