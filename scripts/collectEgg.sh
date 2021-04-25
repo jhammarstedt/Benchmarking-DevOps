@@ -9,9 +9,8 @@ cat <<EOM>> .github/workflows/tryme.yml
 name: "Try me!"
 on:
   issues:
-  types: [opened, reopened]
-
-  jobs:
+   types: [opened, reopened]
+jobs:
    test:
      name: setup environment
      runs-on: ubuntu-latest
@@ -19,7 +18,8 @@ on:
       - name: Improving issues
         uses: deep5050/memes-on-issues-action@main
         with:
-	    GITHUB_TOKEN: \${{secrets.GITHUB_TOKEN}}
+         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+ 
 EOM
 echo "A WILD WORKFLOW APPEARS"
 echo "Do you have any ISSUES with that?"
