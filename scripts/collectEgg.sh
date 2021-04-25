@@ -6,19 +6,20 @@ shift 2
 
 if [[ "$item" == "shovel" ]]; then
 cat <<EOM>> .github/workflows/tryme.yml
-name: "Try me!"
+name: "Greet With A Random Meme"
 on:
   issues:
-   types: [opened, reopened]
+    types: [opened, reopened]
+
 jobs:
-   test:
-     name: setup environment
-     runs-on: ubuntu-latest
-     steps:
-      - name: Improving issues
+  test:
+    name: setup environment
+    runs-on: ubuntu-latest
+    steps:
+      - name: memes on isssues
         uses: deep5050/memes-on-issues-action@main
         with:
-         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
  
 EOM
 echo "A WILD WORKFLOW APPEARS"
