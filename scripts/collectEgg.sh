@@ -1,7 +1,7 @@
 echo "You find something strange hidden in your workflow file....."
-read -p "Password": 'passvar
+read -p "What item did you bring?": 'passvar
 echo
-if [$passvar = "orangejuice"]
+if [$passvar = "shovel"]
 then
     cat <<EOM> .github/workflows/tryme.yml
     name: "Try me!"
