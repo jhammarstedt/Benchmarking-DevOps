@@ -30,5 +30,13 @@ Commit this, get some results, and then change back and commit again to see the 
 If you want to reset the table simply run
 ```./scripts/clear_table.sh```
 
+## Easter egg hint
+
+<details> 
+  <summary>Click me for hint</summary>
+  Did you collect the 🥚 from scripts?
+</details>
+
+
 ## Future work
 * Add support for more languages
