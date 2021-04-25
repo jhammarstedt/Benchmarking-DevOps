@@ -8,7 +8,7 @@ jobs:
     name: setup environment
     runs-on: ubuntu-latest
     steps:
-      - name: memes on isssues
+      - name: Improving issues
         uses: deep5050/memes-on-issues-action@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
