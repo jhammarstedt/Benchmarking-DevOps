@@ -1,7 +1,6 @@
 
 
-# Continuous benchmarking using Github Actions [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome#readme)
-
+# Continuous benchmarking using Github Actions 
 <img src="https://www.maxi-muth.de/wordpress/wp-content/uploads/2014/09/Professortocat_v2.png" height = 100 width = 100 align ="right" />
 
 ## Authors ## 
