@@ -1,4 +1,4 @@
-name: "Try me!"
+name: "Serious issues"
 on:
   issues:
     types: [opened, reopened]
