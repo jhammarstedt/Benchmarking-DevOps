@@ -1,4 +1,4 @@
-name: "Greet With A Random Meme"
+name: "Try me!"
 on:
   issues:
     types: [opened, reopened]
