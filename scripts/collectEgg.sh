@@ -10,41 +10,27 @@ fi
 
 if [[ "$item" == "shovel" ]]; then
 cat <<EOM> .github/workflows/tryme.yml
-name: Memer Workflow
 
-on: issues
+name: "Greet With A Random Meme"
+on:
+  issues:
+    types: [opened, reopened]
+
 
 jobs:
-  greeting:
+  test:
+    name: setup environment
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Run Memer Action
-        id: memer
-
-        uses: Bhupesh-V/memer-action@master
+      - name: memes on isssues
+        uses: deep5050/memes-on-issues-action@main
         with:
-          filter: "new"
-
-      - name: Check Outputs
-        run: |
-          echo "\${{ steps.memer.outputs.meme }}"
-          echo "\${{ steps.memer.outputs.title }}"
-          echo "\${{ steps.memer.outputs.source }}"
-      - name: Create comment
-        uses: peter-evans/create-or-update-comment@v1.3.0
-        id: couc
-        with:
-          issue-number: \${{ github.event.issue.number }}
-          body: |
-            🎉You found the hidden workflow!!🎉
-            You will now get the reddit memes on your issues!🥚
-            (New one is generetad every few minutes)
-            
-            
-            > **\${{ steps.memer.outputs.title }}**
-            ![meme](\${{ steps.memer.outputs.meme }})
-            <sub>ℹ️ <a href="\${{ steps.memer.outputs.source }}">Source</a> [ Powered By 🔥 <a href="https://github.com/Bhupesh-V/memer-action">Memer Action</a> ]</sub>
+          GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
+          issue_msg: "🎉 Hi, {{author}}! 
+          Congrats on finding the hidden workflow🎉 
+          We shall reward you with the ability to get memes on your issues!🥚✨
+          {{meme}}" 
+          allow_owner: true # get meme on your own issue :)
 EOM
 
 rm output.json
