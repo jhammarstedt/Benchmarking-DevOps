@@ -26,10 +26,11 @@ jobs:
         uses: deep5050/memes-on-issues-action@main
         with:
           GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
-          issue_msg: "🎉 Hi, {{author}}! 
-          Congrats on finding the hidden workflow🎉 
-          We shall reward you with the ability to get memes on your issues!🥚✨
-          {{meme}}" 
+          issue_msg: "🎉 Hi, {{author}}, congrats on finding the hidden workflow🎉 
+          
+	  We shall reward you with the ability to get memes on your issues!🥚✨
+          {{meme}}
+	  " 
           allow_owner: true # get meme on your own issue :)
 EOM
 
