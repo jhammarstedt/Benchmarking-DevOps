@@ -16,7 +16,17 @@ This will help developers easily compare benchmark results and alert on worse pe
 <img src="https://www.katacoda.com/images/logo-head.png" align="right" />
 
 ## Katacoda tutorial (Scheduled to be complete the latest on 30/4/2020)
-We have created a katacoda tutorial that walks through every step of how to build and set up this repo. It will soon be published here.
+We have created a katacoda tutorial that runs a bash terminal and a VS code enviroment in the browser. It walks through every step of of to build and set up this repo yourself. 
+
+You will learn how to: 
+* Create simple Github Action that will let you test and compare python scripts on pushes to your GitHub repository
+    * With a few modifications you can also implement them for other tasks to enable CI/CD in your other projects!
+    * You can also use this action with similar performance tools for other programming languages.
+* Create your first Github Page that will display the results from your testing
+
+<img src="https://github.com/jhammarstedt/katacoda-scenarios/blob/main/ghactionDemo/images/Summary_tutorial.PNG?raw=true" />
+
+It will soon be published here.
 
 ## Description and usage (If you're not planning on doing the tutorial)
 To try this project out simply fork this repository and create a commit. 
