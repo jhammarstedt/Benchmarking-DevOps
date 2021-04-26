@@ -35,6 +35,13 @@ If you want to reset the table simply run
 <details> 
   <summary>Click me for hint</summary>
   Did you collect the 🥚 from scripts?
+  
+  <details>
+  <summary> Fun fact regarding easter egg (open after finding it) </summary>
+    The author of the action did not support memes by repo owners, which would be a problem for our purpose. So I raised that
+   <a href="https://github.com/deep5050/memes-on-issues-action/issues/4" target="_top">issue</a> and got a new feature merged for this tutorial 🤙
+    
+  </details>
 </details>
 
 
