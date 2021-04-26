@@ -25,6 +25,9 @@ To try this project out simply fork this repository and create a commit.
 # Clone the repository
 $ git clone https://github.com/jhammarstedt/Benchmarking-DevOps.git
 $ cd Benchmarking-DevOps
+# Clear the table
+$ chmod +x ./scripts/clear_table.sh
+$ ./scripts/clear_table.sh
 ```
 Make change to a file and push it to the repo.
 
@@ -35,14 +38,21 @@ line 22: benchmark(turtle) --> benchmark(cheetah)
 ```
 Commit this, get some results, and then change back and commit again to see the difference. 
 
+
 * The workflow file is found in [`.github/workflows/python.yml`](https://github.com/jhammarstedt/Benchmarking-DevOps/tree/master/.github/workflows)
 * The configurations for the webpage is found in [docs](https://github.com/jhammarstedt/Benchmarking-DevOps/tree/master/docs)
 * All python scrips are found in [`src`](https://github.com/jhammarstedt/Benchmarking-DevOps/tree/master/src)
 
 
-### Clean the table
+### Enable Github Pages 
+1. Go to settings for your cloned repository
+2. Find pages (almost all the way down to the left)
+3. The source should be `master` and also specify `/docs` as there is a HTML file running it.
+4. Press the link generated (might take up to 30 sec after enabling it)
 
-If you want to reset the table simply run
+### Clean the table in Gh Pages
+
+If you want to reset the table again  simply run
 ```$ ./scripts/clear_table.sh```
 
 <img src="https://lh3.googleusercontent.com/proxy/0rw7Lg51-17M6BXSSqniQb8kY8xbz78CF-UQwmP_1WuEOrQr99yiDBEKqO-59kCjcrNV3A_Wg2s1MyerKtym0uS2wnTCNkIYbXcyFZ-QUAuah1w8" height = 80 width = 60 align ="right" />
