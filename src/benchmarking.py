@@ -34,9 +34,9 @@ def cheetah(n=1000000):
     s = "".join(x)
 
 # This is where pytest gets called   
-def turtle_test(benchmark):
+def test_turtle(benchmark):
     result = benchmark(turtle)
 
-def cheetah_test(benchmark):
+def test_cheetah(benchmark):
     result = benchmark(cheetah)
 
