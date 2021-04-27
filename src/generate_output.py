@@ -19,10 +19,13 @@ commit = data["commit_info"]["id"]
 date = data["commit_info"]["time"]
 mean_t = data["benchmarks"][0]["stats"]["mean"]
 mean_c = data["benchmarks"][1]["stats"]["mean"]
-diff_mean = min_c-mean_t
+
 
 std_t = data["benchmarks"][0]["stats"]["mean"]
 std_c = data["benchmarks"][1]["stats"]["mean"]
+
+#getting some comparissions
+diff_mean = mean_c-mean_t 
 diff_std = std_c-std_t
 
 
