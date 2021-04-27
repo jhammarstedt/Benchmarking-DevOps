@@ -9,7 +9,7 @@ def turtle(n=1000000):
     This is an example of a slow running code, we start of by running a regular for loop, 
     which is ok but not best practice in python for doing these simple tasks. 
 
-    To then create the string we run another for loop, which is very inefficient since python has
+    To then create the string we run another for loop, which is inefficient since python has
     several built in functions to handle this. 
     """
     x = [] 
