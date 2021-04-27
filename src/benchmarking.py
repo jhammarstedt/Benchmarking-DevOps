@@ -23,7 +23,6 @@ def turtle(n=1000000):
 def cheetah(n=1000000):
     """
     Faster with list comprehenssion and join
-
     Here we utilize pythons list comprehenssion to perform the same task but faster.
 
     "".join() is a python function that operates on lists and directly inserts all elements.
