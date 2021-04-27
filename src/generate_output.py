@@ -17,12 +17,12 @@ with open("output.json","r") as f:
 # First we get the new data statistics as a markdown to the index file
 commit = data["commit_info"]["id"]
 date = data["commit_info"]["time"]
-mean_t = data["benchmarks"][0]["stats"]["mean"]
-mean_c = data["benchmarks"][1]["stats"]["mean"]
+mean_t = round(data["benchmarks"][0]["stats"]["mean"],4)
+mean_c = round(data["benchmarks"][1]["stats"]["mean"],4)
 
 
-std_t = data["benchmarks"][0]["stats"]["mean"]
-std_c = data["benchmarks"][1]["stats"]["mean"]
+std_t = round(data["benchmarks"][0]["stats"]["stddev"],4)
+std_c = round(data["benchmarks"][1]["stats"]["stddev"],4)
 
 #getting some comparissions
 diff_mean = mean_c-mean_t 
