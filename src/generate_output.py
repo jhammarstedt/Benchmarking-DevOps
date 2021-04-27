@@ -17,19 +17,25 @@ with open("output.json","r") as f:
 # First we get the new data statistics as a markdown to the index file
 commit = data["commit_info"]["id"]
 date = data["commit_info"]["time"]
-mean = data["benchmarks"][0]["stats"]["mean"]
-mini = data["benchmarks"][0]["stats"]["mean"]
-maxi = data["benchmarks"][0]["stats"]["max"]
-std = data["benchmarks"][0]["stats"]["stddev"]
+mean_t = data["benchmarks"][0]["stats"]["mean"]
+mean_c = data["benchmarks"][1]["stats"]["mean"]
+diff_mean = min_c-mean_t
+
+std_t = data["benchmarks"][0]["stats"]["mean"]
+std_c = data["benchmarks"][1]["stats"]["mean"]
+diff_std = std_c-std_t
+
 
 # The format of the index.html is to place new entires in <tr> = <tablerow> which will be inside a tableBody
 new_data = f"""<tr>
                 <td>{commit} </td>
                 <td>{date}</td>
-                <td>{mean}</td>
-                <td>{maxi}</td>
-                <td>{mini}</td>
-                <td>{std}</td>
+                <td>{mean_t}</td>
+                <td>{mean_c}</td>
+                <td>{diff_mean}</td>
+                <td>{std_t}</td>
+                <td>{std_c}</td>
+                <td>{diff_std}</td>
             </tr>"""
 
 # Using bs4 we can now just insert the new data to the table, maybe not best practice but it works :)
