@@ -64,7 +64,7 @@ Commit this, get some results, and then change back and commit again to see the 
 If you want to reset the table again  simply run
 ```$ ./scripts/clear_table.sh```
 
-<img src="https://lh3.googleusercontent.com/proxy/0rw7Lg51-17M6BXSSqniQb8kY8xbz78CF-UQwmP_1WuEOrQr99yiDBEKqO-59kCjcrNV3A_Wg2s1MyerKtym0uS2wnTCNkIYbXcyFZ-QUAuah1w8" height = 80 width = 60 align ="right" />
+<img src="https://static.wikia.nocookie.net/egg-inc/images/2/28/Egg_easter.png/revision/latest?cb=20190520212958" height = 80 width = 60 align ="right" />
 
 ## Easter egg hint 
 
@@ -75,7 +75,7 @@ If you want to reset the table again  simply run
   <details>
   <summary> Fun fact regarding easter egg (open after finding it) </summary>
     The author of the action did not support memes by repo owners, which would be a problem for our purpose. So I raised that
-   <a href="https://github.com/deep5050/memes-on-issues-action/issues/4" target="_top">issue</a> and got a new feature merged for this tutorial 🤙
+   <a href="https://clipart.world/wp-content/uploads/2020/09/Colorful-Easter-Egg-clipart-transparent.png" target="_top">issue</a> and got a new feature merged for this tutorial 🤙
     
   </details>
 </details>
