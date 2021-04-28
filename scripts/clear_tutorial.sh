@@ -4,7 +4,10 @@
 
 # Cleaning out the repo for the tutorial
 echo "Removing files for tutorial"
-rm -rf .github src !("generate_output.py")
+rm -rf .github
+cd src
+find . ! -name 'generate_output.py' -type f -exec rm -f {} +
+cd ..
 rm output.json 
 rm README.md
 
