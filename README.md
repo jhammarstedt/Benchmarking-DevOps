@@ -66,12 +66,11 @@ If you want to reset the table again  simply run
 
 <img src="https://static.wikia.nocookie.net/egg-inc/images/2/28/Egg_easter.png/revision/latest?cb=20190520212958" height = 80 width = 60 align ="right" />
 
-## Easter egg hint 
+## Easter egg hint for tutorial
 
 <details> 
   <summary>Click me for hint</summary>
   Did you collect the 🥚 from scripts?
-  
   <details>
   <summary> Fun fact regarding easter egg (open after finding it) </summary>
     The author of the action did not support memes by repo owners, which would be a problem for our purpose. So I raised that
