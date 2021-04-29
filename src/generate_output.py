@@ -25,8 +25,8 @@ std_t = round(data["benchmarks"][0]["stats"]["stddev"],4)
 std_c = round(data["benchmarks"][1]["stats"]["stddev"],4)
 
 #getting some comparissions
-diff_mean = mean_c-mean_t 
-diff_std = std_c-std_t
+diff_mean = round(mean_c-mean_t,5)
+diff_std = round(std_c-std_t,5)
 
 
 # The format of the index.html is to place new entires in <tr> = <tablerow> which will be inside a tableBody
