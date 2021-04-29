@@ -27,8 +27,6 @@ You will learn how to:
 
 <img src="https://github.com/jhammarstedt/katacoda-scenarios/blob/main/ghactionDemo/images/Summary_tutorial.PNG?raw=true" />
 
-It will soon be published here.
-
 ## Description and usage (If you're not planning on doing the tutorial)
 To try this project out simply fork this repository and create a commit. 
 
