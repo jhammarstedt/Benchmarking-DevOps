@@ -14,8 +14,10 @@ This will help developers easily compare benchmark results and alert on worse pe
 
 <img src="https://www.katacoda.com/images/logo-head.png" align="right" />
 
-## Katacoda tutorial (Scheduled to be complete the latest on 30/4/2020)
-We have created a katacoda tutorial that runs a bash terminal and a VS code environment in the browser. It walks through every step to build and set up this repo yourself. 
+## Katacoda tutorial
+We have created a katacoda tutorial that runs a bash terminal and a VS code environment in the browser. It walks through every step how to build and set up this repo yourself. 
+
+It's available [here](https://www.katacoda.com/jhamm/scenarios/ghactiondemo)!💡
 
 You will learn how to: 
 * Create simple Github Action that will let you test and compare python scripts on pushes to your GitHub repository
