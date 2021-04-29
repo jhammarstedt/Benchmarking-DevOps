@@ -38,15 +38,10 @@ $ cd Benchmarking-DevOps
 $ chmod +x ./scripts/clear_table.sh
 $ ./scripts/clear_table.sh
 ```
-Make a change to a file and push it to the repo.
+To make the workflow run commit these changes to your repository.
 
-Ideally, you would change the [benchmarking.py script](https://github.com/jhammarstedt/Benchmarking-DevOps/blob/master/src/benchmarking.py) since that will give different performance results. We have 2 test functions, a slower `turtle` and faster `cheetah` which are just used to test the benchmarking. So try to change:
-
-```
-line 22: benchmark(turtle) --> benchmark(cheetah)
-```
-Commit this, get some results, and then change back and commit again to see the difference. 
-
+Compare our test functions or write your own in the [benchmarking.py script](https://github.com/jhammarstedt/Benchmarking-DevOps/blob/master/src/benchmarking.py) script.
+We have 2 test functions, a slower `turtle` and faster `cheetah` which are just used to test the benchmarking and display some results in the workflow and on your github page.
 
 * The workflow file is found in [`.github/workflows/python.yml`](https://github.com/jhammarstedt/Benchmarking-DevOps/tree/master/.github/workflows)
 * The configurations for the webpage is found in [docs](https://github.com/jhammarstedt/Benchmarking-DevOps/tree/master/docs)
